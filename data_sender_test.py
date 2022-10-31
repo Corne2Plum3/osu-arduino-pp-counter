@@ -2,8 +2,9 @@
 import serial
 import time
 
-ARDUINO_PORT = "COM4"
 ARDUINO_BAUDRATE = 9600
+ARDUINO_PORT = "COM4"
+REFRESH_TIME = 0.25  # time to wait to update displayed pp.
 
 # Connect to arduino
 arduino = serial.Serial(port=ARDUINO_PORT, baudrate=ARDUINO_BAUDRATE, timeout=0.1)
@@ -14,4 +15,4 @@ while True:
     # value = write_read(str(i))
     arduino.write(bytes(str(i) + "\n", 'utf-8'))
     print(i)
-    time.sleep(0.25)
+    time.sleep(REFRESH_TIME)
