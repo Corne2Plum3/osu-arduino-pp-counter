@@ -72,7 +72,7 @@ This project is intended to work on Windows only.
 ## Arduino circuit
 
 * Click [here](https://github.com/Corne2Plum3/osu-arduino-pp-counter/blob/main/pictures/schematic_circuit.png?raw=true) to see the circuit. The list of all components is written above.
-* [Example of the circuit](https://github.com/Corne2Plum3/osu-arduino-pp-counter/blob/main/pictures/circuit_picture.jpg?raw=true) built IRL. (I'm sorry for the shitty quality picture)
+* [Example of the circuit](https://github.com/Corne2Plum3/osu-arduino-pp-counter/blob/main/pictures/circuit_picture.jpg?raw=true) built IRL. (I'm sorry for the shitty quality picture). Putting the displayer cables between the LED's legs this is what I call cable management bro.
 
 ## Usage
 
