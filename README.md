@@ -1,6 +1,6 @@
 # osu! Arduino Performance Points counter
 
-A simple (stupid?) project where we use an Arduino board and a TM1637 4-digit display module to display my live performance from the video game osu!.
+A stupid osu! project with an Arduino board and a TM1637 4-digit display to display your PP.
 
 ![circuit_picture_small.jpg](https://github.com/Corne2Plum3/osu-arduino-pp-counter/blob/main/pictures/circuit_picture_small.jpg?raw=true)
 
